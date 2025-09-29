@@ -3,62 +3,95 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Best Fitness Nutrition</title>
+  <title>BEST FITNESS NUTRITION</title>
   <style>
     body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000; /* Fondo negro */
+      color: #fff;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      margin: 0;
-      background: #000; /* Fondo negro */
-      color: #fff;
-      font-family: Arial, sans-serif;
       text-align: center;
+      padding: 20px;
     }
-    .logo-bfn {
-      width: 120px;
-      height: auto;
-      margin-bottom: 1rem;
-      display: block;
+
+    .logo {
+      max-width: 200px;
+      margin: 20px 0;
     }
+
     h1 {
-      font-size: 1.5rem;
-      margin-bottom: 1.5rem;
-      color: #c58b30; /* Dorado del logo */
+      font-size: 26px;
+      margin: 10px 0 5px 0;
+      color: #FFD700; /* Dorado */
     }
-    .btn {
+
+    h2 {
+      font-size: 16px;
+      margin: 0 0 20px 0;
+      font-weight: normal;
+      color: #ccc;
+    }
+
+    .video {
+      width: 100%;
+      max-width: 400px;
+      margin: 20px 0;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .link {
       display: block;
       width: 80%;
       max-width: 300px;
-      padding: 0.75rem 1rem;
-      margin: 0.5rem auto;
-      background: #c58b30; /* Dorado del logo */
+      margin: 10px auto;
+      padding: 14px;
+      border-radius: 30px;
+      background: #FFD700;
+      color: #000;
       text-decoration: none;
-      color: #fff;
-      border-radius: 8px;
       font-weight: bold;
-      transition: background 0.3s;
+      transition: 0.3s;
     }
-    .btn:hover {
-      background: #a67126; /* Un dorado más oscuro al pasar el mouse */
+
+    .link:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <img src="LogotipoBFN.jpg" alt="Best Fitness Nutrition Logo" class="logo-bfn">
-  <h1>Best Fitness Nutrition 
-    by Lic. Camilo Campaña</h1>
+  <!-- Logo -->
+  <img src="logo-bfn.png" alt="Best Fitness Nutrition" class="logo">
 
-  <!-- Botones de redes sociales -->
-  <a href="https://www.tiktok.com/@bestfitnessnutrition?_t=ZM-908fFxDZQbL&_r=1" class="btn">TikTok</a>
-  <a href="#" class="btn">Facebook</a>
-  <a href="https://www.instagram.com/best.fitness.nutrition?igsh=MThweDM3OTJyYm9oNA==" class="btn">Instagram</a>
-  <a href="#" class="btn">WhatsApp</a>
-  <a href="#" class="btn">150 Recetas Fitness</a>
-  
-  <!-- Aquí puedes añadir más botones si lo necesitas -->
+  <!-- Título -->
+  <h1>BEST FITNESS NUTRITION</h1>
+  <h2>by Lic. Camilo Campaña</h2>
+
+  <!-- Video -->
+  <div class="video">
+    <iframe width="100%" height="215" src="https://www.youtube.com/embed/VIDEO_ID"
+      title="Video de presentación"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- Botones -->
+  <a href="https://www.facebook.com/bestfitnessnutrition7" class="link">Facebook</a>
+  <a href="https://www.instagram.com/best.fitness.nutrition" class="link">Instagram</a>
+  <a href="https://www.tiktok.com/@TU_USUARIO" class="link">TikTok</a>
+
+  <!-- Pie -->
+  <div class="footer">© 2025 Best Fitness Nutrition</div>
 </body>
 </html>
-
